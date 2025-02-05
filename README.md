@@ -22,7 +22,7 @@ Create a Simple Navigation Bar with the following links:
 - Home
 - About
 - Contact
-Use an unordered list (<ul>) to organize the links.
+Use an unordered list (`<ul>`) to organize the links.
 
 ## Part 4: Adding Images
 Add a Placeholder Image (use https://placehold.co/300x200).
