@@ -7,38 +7,53 @@
     </head>
     <body>
         <!-- Your code goes here -->
+        <!-- Part 3: Navigation Bar-->
+        <nav>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="#contact">Contact us</a></li>
+            </ul>
+          </nav>
+        <section id="home">
+            <h1>Welcome to the Knowledge Check assignment for HTML Concepts</h1><br>
+        </section>
         <!-- Part 1: Basic HTML Contact Form-->
-        <form action="http://127.0.0.1:5000" method="post">
-            <!--Name Text Input-->
-            <lable for="in_name">Name (required):</lable><br>
-            <input name="in_name" id="in_name" type="text" placeholder="Enter your name"><br><br>
-            <!--Email Input-->
-            <label for="in_email">Email (required):</label><br>
-            <input name="in_email" id="in_email" type="email" placeholder="Enter your email address" required><br><br>
-            <!--bonus: Radio buttons asking where you heard about us from-->
-            How did you hear about us?:<br>
-            <label for="in_google">Google</label>
-            <input type="radio" id="in_google" name="in_heard" value="Google"><br>
-            <label for="in_facebook">Facebook</label>
-            <input type="radio" id="in_facebook" name="in_heard" value="Facebook"><br>
-            <label for="in_youtube">Youtube</label>
-            <input type="radio" id="in_youtube" name="in_heard" value="Youtube"><br>
-            <label for="in_twitter">X/Twitter</label>
-            <input type="radio" id="in_twitter" name="in_heard" value="Twitter"><br>
-            <lable for="in_bluesky">Bluesky</lable>
-            <input type="radio" id="in_bluesky" name="in_heard" value="Bluesky"><br>
-            <label for="in_reddit">Reddit</label>
-            <input type="radio" id="in_reddit" name="in_heard" value="Reddit"><br>
-            <label for="in_other">Other</label>
-            <input type="radio" id="in_other" name="in_heard" value="Other"><br><br>
-            <!--Textarea input for the message-->
-            <label for="in_message">Message:</label><br>
-            <textarea name="in_message" id="in_message" row="4" cols="50" wrap="hard">Enter your message to us here!</textarea><br><br>
-            <!--Submit Button-->
-            <label for="submit">Submit Message:</label><br>
-            <button type="submit" name="submit" id="submit">Submit</button>
-        </form><br>
+        <section id="contact">
+            <h2>Contact Us:</h2>
+            <form action="http://127.0.0.1:5000" method="post">
+                <!--Name Text Input-->
+                <lable for="in_name">Name (required):</lable><br>
+                <input name="in_name" id="in_name" type="text" placeholder="Enter your name"><br><br>
+                <!--Email Input-->
+                <label for="in_email">Email (required):</label><br>
+                <input name="in_email" id="in_email" type="email" placeholder="Enter your email address" required><br><br>
+                <!--bonus: Radio buttons asking where you heard about us from-->
+                How did you hear about us?:<br>
+                <label for="in_google">Google</label>
+                <input type="radio" id="in_google" name="in_heard" value="Google"><br>
+                <label for="in_facebook">Facebook</label>
+                <input type="radio" id="in_facebook" name="in_heard" value="Facebook"><br>
+                <label for="in_youtube">Youtube</label>
+                <input type="radio" id="in_youtube" name="in_heard" value="Youtube"><br>
+                <label for="in_twitter">X/Twitter</label>
+                <input type="radio" id="in_twitter" name="in_heard" value="Twitter"><br>
+                <lable for="in_bluesky">Bluesky</lable>
+                <input type="radio" id="in_bluesky" name="in_heard" value="Bluesky"><br>
+                <label for="in_reddit">Reddit</label>
+                <input type="radio" id="in_reddit" name="in_heard" value="Reddit"><br>
+                <label for="in_other">Other</label>
+                <input type="radio" id="in_other" name="in_heard" value="Other"><br><br>
+                <!--Textarea input for the message-->
+                <label for="in_message">Message:</label><br>
+                <textarea name="in_message" id="in_message" row="4" cols="50" wrap="hard">Enter your message to us here!</textarea><br><br>
+                <!--Submit Button-->
+                <label for="submit">Submit Message:</label><br>
+                <button type="submit" name="submit" id="submit">Submit</button>
+            </form><br>
+        </section>
         <!-- Part 2: Table Structure-->
+        <h2>Product Details:</h2>
         <table border="2">
             <!--Bonus: Header Row-->
             <tr>
